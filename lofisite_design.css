@@ -1,0 +1,61 @@
+/* What is Lo-fi? Page Design*/
+nav > ul {
+    list-style-type: none;
+    text-align: center;
+    color: rgb(211,211,211);
+}
+
+nav > ul > li > a:link, nav > ul > li > a:visited { 
+    color: rgb(211,211,211); 
+    text-decoration: none; 
+}
+
+nav > ul > li > a:hover, nav > ul > li > a:active { 
+    color: rgb(255,255,255); 
+    text-decoration: underline; 
+}
+
+nav.horizontalNavigation a {
+    display: block;
+}
+
+nav.horizontalNavigation a:hover {
+    background-color: rgb(191,128,255);
+}
+
+nav.horizontalNavigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(102,0,204,0.7);
+    
+}
+
+li a {
+    display: block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    padding-right: 40px;
+}
+
+body { 
+    margin-left: auto; 
+    margin-right: auto;
+    max-width: 1080px; 
+    min-width: 630px; 
+    background-color:rgb(115,0,153);
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    text-align: center;
+}
+
+body {
+    background-image: url('bright-pop-landscape-design.jpg');
+    background-size: 1950px 1000px;
+    background-repeat: no-repeat;
+  }
