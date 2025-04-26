@@ -5,19 +5,48 @@
     <meta charset="utf-8"/>
     <title>Alberto Lozano</title>
     <link href="lofisite_design.css" rel="stylesheet" />
+    <style>
+        div.gallery {
+          margin: 5px;
+          border: 1px solid #ccc;
+          width: 180px;
+        }
+        
+        div.gallery:hover {
+          border: 1px solid #777;
+        }
+        
+        div.gallery img {
+          width: 100%;
+          height: auto;
+        }
+        
+        div.desc {
+          padding: 15px;
+          text-align: center;
+        }
+
+        .gallery-container {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 10px;
+          justify-content: center;
+        }
+
+    </style>
 </head>
 <body>
     <section>
         <h1><img src="flamingtext_com-3749533733.png" alt="" style="width:654px;height:130px;"/></h1>
-        <h2>What is Lo-Fi?</h2>
+        <h2>What is Lo-fi?</h2>
     </section>
     <header>
         <nav class="horizontalNavigation"> 
             <ul> 
-                <li><a href=”#”>What is Lo-Fi?</a></li>
+                <li><a href="index.html">What is Lo-fi?</a></li>
                 <li><a href=”#”>History</a></li>
-                <li><a href=”#”>Lo-Fi Now</a></li>
-                <li><a href=”#”>Recommendations</a></li>
+                <li><a href=”#”>Lo-fi Now</a></li>
+                <li><a href="recommendations.html">Recommendations</a></li>
             </ul> 
          </nav>
     </header>
@@ -28,4 +57,33 @@
     <p>
         Short explanation of lofi
     </p>
+  <div class="gallery-container">
+    <div class="gallery">
+        <a target="_blank" href="homestudio.jpg">
+          <img src="homestudio.jpg" alt="Studio for producing music at home" width="600" height="400">
+        </a>
+        <div class="desc">Lo-fi intentionally includes audio imperfections that are avoided in professional settings.</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="cassettes_vinyl.jpg">
+          <img src="cassettes_vinyl.jpg" alt="Cassettes and Vinyl" width="600" height="400">
+        </a>
+        <div class="desc">Some artists seek to replicate the feel of listening to music through older technology such as vinyls and cassettes.</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="nightcity.jpg">
+          <img src="nightcity.jpg" alt="City street" width="600" height="400">
+        </a>
+        <div class="desc">Sounds from environments are also heavily used. One popular setting is a typical city street.</div>
+      </div>
+      
+      <div class="gallery">
+        <a target="_blank" href="rain.jpg">
+          <img src="rain.jpg" alt="Rain" width="600" height="400">
+        </a>
+        <div class="desc">Rain is one of the most common environmental sounds used in lo-fi, intending to give a certain warmth to the track.</div>
+      </div>
+    </div>
 </body>

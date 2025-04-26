@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Alberto Lozano</title>
+    <link href="lofisite_design.css" rel="stylesheet" />
+</head>
+<body>
+    <section>
+        <h1><img src="flamingtext_com-3749533733.png" alt="" style="width:654px;height:130px;"/></h1>
+        <h2>Recommendations</h2>
+    </section>
+    <header>
+        <nav class="horizontalNavigation"> 
+            <ul> 
+                <li><a href="index.html">What is Lo-fi?</a></li>
+                <li><a href=”#”>History</a></li>
+                <li><a href=”#”>Lo-fi Now</a></li>
+                <li><a href="recommendations.html">Recommendations</a></li>
+            </ul> 
+         </nav>
+    </header>
+    <div style="height: 10px;"></div>
+    <p>
+        List of personal recommendations of tracks, albums, and artists.
+    </p>
+    
+    <section>
+        <h3>Any Suggestions?</h3>
+        <p>If you have any favorites of your own that you would like for me to share, feel free to message me about it here. </p>
+        <p>Required information is marked by an asterisk. (*)</p>
+        <form id="survey" method="post"> 
+          <fieldset id="custInfo"> 
+              <legend>Your Recommendation</legend>
+              
+              <div class="formRow">
+                <label for="mail">E-mail*</label> 
+                <input name="custEmail" id="mail" type="email" required />
+              </div>
+
+              <div class="formRow">
+                  <label for="name">Name of track/album*</label> 
+                  <input name="custName" id="name" type="text" required /> 
+              </div>
+              
+              <div class="formRow">
+                  <label for="artist">Artist</label> 
+                  <input name="custArtist" id="artist" type="text"/> 
+              </div>
+              
+              <div class="formRow">
+                  <label for="location">Where the track can be found</label>
+                  <input name="custSite" id="location" type="text" placeholder="Website"/> 
+              </div>
+
+              <div class="formRow"> 
+                <label>Is your recommendation a single track or an album?</label> 
+                <fieldset class="optGroup"> 
+                   <label for="fYes">Track</label> 
+                   <input name="sFriend" id="fYes" value="yes" type="radio" /> 
+                   <label for="fNo">Album</label> 
+                   <input name="sFriend" id="fNo" value="no" type="radio" /> 
+                </fieldset> 
+              </div>
+
+              <label for="commBox">Reason for the recommendation/Additional notes?</label> 
+              <textarea name="personalRec" id="commBox"></textarea>
+
+              <div id="buttons"> 
+                <input type="submit" value="Submit" /> 
+                <input type="reset" value="Reset Form" /> 
+              </div>
+  
+          </fieldset> 
+        </form>
+     </section>
+</body>
