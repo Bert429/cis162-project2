@@ -76,6 +76,9 @@ body {
     background-repeat: no-repeat;
   }
 
+.index {
+    background: rgb(102,0,204,0.4);
+}
 /* Form layout design */
 
 input[type='submit'], input[type='reset'] { 
@@ -109,4 +112,13 @@ section > form {
   #accordionPanelsStayOpenExample .accordion-button {
     background-color: rgb(102,0,204);
     color: rgb(255,255,255,0.8)
+}
+
+/*Lo-fi Now page design*/
+.lofinow {
+    background: rgba(138, 43, 226, 0.4)
+}
+/* Recommendation page design */
+#survey {
+    margin-top: 50px;
 }
